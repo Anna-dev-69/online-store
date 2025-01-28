@@ -25,7 +25,7 @@ const Pagination = (props) => {
     newIsActive[index] = true;
     setIsActive(newIsActive);
   };
-
+  //
   return (
     <div className="Catalog__container-goods-pagination">
       <div className="Catalog__pagination">
