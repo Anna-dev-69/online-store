@@ -1,0 +1,25 @@
+.Footer__navigation {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.Footer__navigation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 0.8rem;
+
+  padding: 0;
+  margin: 0;
+}
+.Footer__navigation-list li a:hover {
+  color: rgb(132, 178, 240);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.Footer__navigation-list a {
+  text-decoration: none;
+  color: rgba(18, 17, 17, 0.793);
+}

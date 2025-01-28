@@ -1,0 +1,21 @@
+.SelectLocalization {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+  margin-top: 0.6rem;
+  /* border: 1px solid black; */
+  margin-right: 2rem;
+}
+.SelectLocalization__select {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--bg-top-panel);
+  border: none;
+}
+
+.SelectLocalization__select option {
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.Header {
+  width: 100vw;
+  background-color: var(--bg-top-panel);
+  /* background-color: rgb(229, 235, 255); */
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.Header__container {
+  width: 1580px;
+  height: 50px;
+  /* background-color: var(--bg-top-panel); */
+  display: flex;
+  justify-content: space-between;
+  color: rgb(45, 45, 45);
+}
+.Header__menu {
+}
+
+.Header__menu-list {
+  display: flex;
+  padding: 0;
+  gap: 2rem;
+  list-style: none;
+}
+.Header__menu-list li {
+}
+.Header__menu-list:hover {
+  cursor: pointer;
+}
+.Header__contacts {
+  /* border: 1px solid black; */
+  display: flex;
+}
+.Header__contacts-list {
+  display: flex;
+
+  width: 450px;
+  gap: 2.5rem;
+  padding: 0;
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+}
+
+.Header__contacts-list li {
+  /* border: 1px solid black; */
+  font-size: 1.1rem;
+  list-style: none;
+}
+.Header__menu-list-link {
+  text-decoration: none;
+  color: rgba(18, 17, 17, 0.793);
+}
+.Header__contacts-list:hover {
+  cursor: pointer;
+}

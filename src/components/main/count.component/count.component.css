@@ -1,0 +1,17 @@
+.Count {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--bg-button);
+  position: absolute;
+  top: -4px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+
+  /* align-items: center; */
+  font-size: 11px;
+  color: white;
+  font-weight: 600;
+}

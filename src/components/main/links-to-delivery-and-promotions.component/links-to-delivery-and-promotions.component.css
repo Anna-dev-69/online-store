@@ -1,0 +1,31 @@
+.LinksToDeliveryAndPromotions {
+  /* border: 1px solid black; */
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-top-panel);
+}
+.LinksToDeliveryAndPromotions__container {
+  height: 126px;
+}
+
+.LinksToDeliveryAndPromotions__ul {
+  width: 1022px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+.LinksToDeliveryAndPromotions__ul li {
+  width: 319px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  gap: 1rem;
+  font-size: 17.6px;
+  color: #2d2d2d;
+  font-weight: 500;
+}

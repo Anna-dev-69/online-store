@@ -1,0 +1,65 @@
+.ValidationPage {
+  height: 618px;
+
+  display: flex;
+  justify-content: center;
+
+  /* border: 1px solid black; */
+}
+
+.ValidationPage__container {
+  width: 1562px;
+  /* border: 1px solid black; */
+  padding-top: 3rem;
+}
+
+.ValidationPage__form-container {
+  margin-top: 3rem;
+}
+.ValidationPage__form {
+  width: 751px;
+  height: 248px;
+}
+
+.ValidationPage__button-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.ValidationPage__button-entrance {
+  width: 78px;
+  height: 40px;
+  color: #ffff;
+  font-size: 16px;
+  padding: 0 16px;
+  background-color: var(--bg-button);
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+}
+.ValidationPage__button {
+  height: 25px;
+  color: var(--bg-button);
+  border: transparent;
+  background-color: #ffff;
+  border-bottom: 1px dotted var(--bg-button);
+  cursor: pointer;
+}
+.ValidationPage__form-login {
+  margin-top: 0.5rem;
+  width: 710px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 6.4px 10px;
+  border: 1px solid #2d2d2d;
+}
+.ValidationPage__form-password {
+  margin-top: 0.5rem;
+  width: 710px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 6.4px 10px;
+  border: 1px solid #2d2d2d;
+}

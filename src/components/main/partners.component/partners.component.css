@@ -1,0 +1,29 @@
+.Partners {
+  width: 1240px;
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Partners__container {
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.Partners__title {
+  height: 45px;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.Partners__list {
+  width: 1240px;
+  display: flex;
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}

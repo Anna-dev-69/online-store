@@ -1,0 +1,66 @@
+.SideMenuList {
+  width: 1170px;
+  display: flex;
+
+  margin-right: 3rem;
+  position: relative;
+  padding: 1.5rem;
+  margin-right: 1.5rem;
+}
+.SideMenuList__button-prev {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 1.7%;
+  background-color: rgb(255, 255, 255);
+  transform: translateY(-50%);
+}
+.SideMenuList__container-ul {
+  width: 100%;
+  margin-left: 1rem;
+}
+.SideMenuList__list-ul {
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  gap: 2.6rem;
+
+  margin: 0;
+  padding: 0;
+}
+.SideMenuList__button-next {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(247, 247, 247);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0.5%;
+  transform: translateY(-50%);
+}
+
+::-webkit-scrollbar {
+  overflow: hidden;
+}
+.SideMenuList__button-prev img {
+  background-color: var(--color-arrow);
+}
+
+.SideMenuList__button-prev:hover {
+  background-color: var(--bg-button);
+  cursor: pointer;
+}
+.SideMenuList__button-next:hover {
+  background-color: var(--bg-button);
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.Catalog__pagination-page {
+  width: 120px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+.Pagination__list {
+  /* border: 1px solid black; */
+  width: 500px;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.Pagination__list-li {
+  /* border: 1px solid black; */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}

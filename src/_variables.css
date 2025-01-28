@@ -1,0 +1,18 @@
+:root {
+  --bg-top-panel: rgb(229, 235, 255);
+  --bg-button: rgb(113, 136, 212);
+  --bg-svg: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+    hue-rotate(132deg) brightness(105%) contrast(102%);
+  --filter-controls: brightness(0) saturate(100%) invert(13%) sepia(31%)
+    saturate(457%) hue-rotate(201deg) brightness(92%) contrast(85%);
+  --bg-button-hover: rgb(128, 149, 217);
+  --color-arrow: brightness(0) saturate(100%) invert(0%) sepia(0%)
+    saturate(4442%) hue-rotate(208deg) brightness(68%) contrast(88%);
+
+  --filter-like: brightness(0) saturate(100%) invert(72%) sepia(56%)
+    saturate(4231%) hue-rotate(198deg) brightness(88%) contrast(87%);
+  --filter-bc-cart: brightness(0) saturate(100%) invert(72%) sepia(38%)
+    saturate(6277%) hue-rotate(200deg) brightness(92%) contrast(79%);
+  --filter-red: brightness(0) saturate(100%) invert(26%) sepia(97%)
+    saturate(7500%) hue-rotate(0deg) brightness(109%) contrast(115%);
+}

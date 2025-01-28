@@ -1,0 +1,65 @@
+.CatalogBurger {
+  width: 150px;
+  height: 50px;
+  /* border: 1px solid black; */
+  border-radius: 0.3rem;
+  background-color: rgb(113, 136, 212);
+  display: flex;
+  justify-content: space-between;
+}
+.CatalogBurger:hover {
+  background-color: rgb(128, 149, 217);
+  cursor: pointer;
+}
+
+.CatalogBurger__container {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.CatalogBurger__container-1 {
+  width: 20px;
+  /* height: 30px; */
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+  position: relative;
+}
+
+.CatalogBurger__container-2 {
+  width: 20px;
+  border: 1px solid rgb(255, 255, 255);
+
+  transition: 300ms;
+}
+
+.CatalogBurger__container-3 {
+  width: 20px;
+  border: 1px solid rgb(255, 255, 255);
+
+  transition: all 300ms;
+}
+.CatalogBurger__container-2.hidden {
+  opacity: 0;
+  transition: 300ms;
+}
+
+.CatalogBurger__container-1.active {
+  transform: translateY(350%) rotate(45deg);
+  transition: 300ms;
+}
+
+.CatalogBurger__container-3.active {
+  transform: translateY(-350%) rotate(-45deg);
+
+  transition: 300ms;
+}

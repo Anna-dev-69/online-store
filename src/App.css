@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  /* position: relative; */
+  /* display: grid; */
+  /* grid-template-rows: 1fr auto; гибкая область для содержимого и фиксированная для футера */
+  min-height: 100vh;
+  display: flex;
+  /* flex: 0 0 auto; */
+}
+.App ul {
+  list-style-type: none;
+}

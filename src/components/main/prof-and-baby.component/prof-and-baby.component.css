@@ -1,0 +1,19 @@
+.ProfAndBaby {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  /* border: 1px solid black; */
+  /* padding: 3rem; */
+}
+
+.ProfAndBaby__prof img {
+  width: 577px;
+  height: 251px;
+  cursor: pointer;
+}
+
+.ProfAndBaby__baby img {
+  width: 577px;
+  height: 251px;
+  cursor: pointer;
+}
