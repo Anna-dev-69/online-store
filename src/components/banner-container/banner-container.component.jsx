@@ -15,7 +15,7 @@ const BannerContainer = (props) => {
   return (
     <div className="MainBody__banner-container">
       <div className="MainBody__banner-container-img">
-        <img style={{ width: "100%" }} src={banner} alt="" />
+        <img style={{ maxWidth: "100%" }} src={banner} alt="" />
       </div>
       <div className="MainBody__banner-container-sales">
         <div className="MainBody__banner-container-sales-text">

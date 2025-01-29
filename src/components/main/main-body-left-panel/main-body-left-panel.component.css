@@ -1,8 +1,24 @@
 .MainBody__left-panel {
-  width: 326px;
+  width: 100%;
+  max-width: 326px;
   height: 1236px;
   margin-bottom: 2rem;
   position: sticky;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+@media (max-width: 800px) {
+  .MainBody__left-panel {
+    width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .MainBody__left-panel {
+    width: 100px;
+  }
 }

@@ -1,0 +1,13 @@
+.MainBody__banner-container-img {
+}
+@media (max-width: 800px) {
+  .MainBody__banner-container-img {
+    width: 80%; /* Уменьшаем ширину блоков */
+  }
+}
+
+@media (max-width: 600px) {
+  .MainBody__banner-container-img {
+    width: 60%; /* Уменьшаем ширину блоков еще больше */
+  }
+}
